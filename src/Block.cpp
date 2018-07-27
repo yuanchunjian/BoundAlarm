@@ -505,7 +505,7 @@ void CBlock::JudgeStand(double dbSpeed)
 
 void CBlock::JudgeValidFrameNum()
 {
-#define VALID_NUM 10
+#define VALID_NUM 10//mod by xxf2
 	if (ValidNum1 <= VALID_NUM )
 	{
 		if (GetLastAdjustedLength() > SickAlgorithm->Info->MinDetectSize)

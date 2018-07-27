@@ -24,6 +24,7 @@ public:
 		//mod by yuan
 		StandSpeed = 0.1;
 		ExpiredTime = 1000;   //
+		//mod by xxf2
 		StandAlarmTime = 1000;      //<15ms
 		OneLevelAlarmTime = 0x61ab;  //<25ms
 		TrainDirection = Both;
